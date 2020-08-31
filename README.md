@@ -1,17 +1,21 @@
 # 2020-08-31-Progressive-Web-Apps-VC
 
-## GETTING STARTED
+## M01 | GETTING STARTED
 
-## APP SHELL
+## M02 | APP SHELL
 
-## SERVICE WORKER
+## M03 | SERVICE WORKER
 
-## WEB APP MANIFEST
+- [x] [Offline Szenario: Eigene Datei anstatt vom 404-Dino](VADZIM/lab-todos/public/service-worker.js)
 
-## INSTALLABILITY
+[commit]()
 
-## PUSH API & NOTIFICATIONS API
+## M01 | WEB APP MANIFEST
 
-## FRAMEWORKS
+## M01 | INSTALLABILITY
 
-## FACTS
+## M01 | PUSH API & NOTIFICATIONS API
+
+## M01 | FRAMEWORKS
+
+## M01 | FACTS
