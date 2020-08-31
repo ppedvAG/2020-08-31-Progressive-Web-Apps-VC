@@ -1,3 +1,13 @@
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+        // returns: Promise<ServiceWorkerRegistration>
+        .then(reg => {
+            console.log('Service worker registered.', reg);
+        });
+    });
+}
+
 fetch('https://jsonplaceholder.typicode.com/todos')
 .then(response => response.json())
 // .then(json => console.log(json))
