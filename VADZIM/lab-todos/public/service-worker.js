@@ -24,7 +24,8 @@ self.addEventListener('fetch', evt => {
         // keine Seiten-Navigation
         return;
     }
-    //#region Offline Szenario: Eigene Datei anstatt vom 404-Dino    
+    //#region Offline Szenario: Eigene Datei anstatt vom 404-Dino  
+    // Current page responds with a 200 when offline  
     evt.respondWith(
         fetch(evt.request)
         .catch(() => {
