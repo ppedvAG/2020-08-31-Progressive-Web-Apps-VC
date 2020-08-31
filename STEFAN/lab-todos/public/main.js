@@ -1,3 +1,10 @@
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+            .then(reg => console.log('service worker registered', reg));
+    });
+}
+
 fetch('https://jsonplaceholder.typicode.com/todos')
     .then(response => response.json())
     .then(json => giveTable(json))
@@ -24,9 +31,9 @@ function giveTable(arr) {
             </tfoot> `;
     for (const item of arr) {
         let newRow = tbodyId.insertRow();
-        newRow.insertCell().innerHTML= item.id;
-        newRow.insertCell().innerHTML= item.userId;
-        newRow.insertCell().innerHTML= item.title;
-        newRow.insertCell().innerHTML= item.completed;
-    }    
+        newRow.insertCell().innerHTML = item.id;
+        newRow.insertCell().innerHTML = item.userId;
+        newRow.insertCell().innerHTML = item.title;
+        newRow.insertCell().innerHTML = item.completed;
+    }
 }

@@ -1,0 +1,20 @@
+{
+    "name": "PWA Todos Lab",
+    "short_name": "Todos PWA",
+    "icons": [
+        {
+            "src": "/assets/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#f8e5e5",    
+    "theme_color": "#ff6a6a"
+}
