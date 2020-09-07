@@ -12,14 +12,14 @@
 
 ## M04 | WEB APP MANIFEST
 
-[commit]() 
+[commit](https://github.com/ppedvAG/2020-08-31-Progressive-Web-Apps-VC/commit/5dff266019eed00228f5bc9ec63db780e6b37867)
 
-<!-- todo: beim Stefan gabs Install-Btn, bei mir nicht -->
 <!-- https://github.com/ppedvAG/2020-08-31-Progressive-Web-Apps-VC/commit/9e052f39907932a57d72b5ea99aa4503ea3ee74c -->
-## M01 | INSTALLABILITY
 
-## M01 | PUSH API & NOTIFICATIONS API
+## M05 | INSTALLABILITY
 
-## M01 | FRAMEWORKS
+## M06 | PUSH API & NOTIFICATIONS API
 
-## M01 | FACTS
+## M07 | FRAMEWORKS
+
+## M08 | FACTS
